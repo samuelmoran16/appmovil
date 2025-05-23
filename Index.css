@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://planosdehosteleria.com/wp-content/uploads/2023/08/Optimizar-las-bebidas-en-un-bar-o-restaurante_.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  position: relative;
+  background: rgba(255, 248, 240, 0.95); /* Tono crema suave */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(50, 30, 10, 0.2); /* Sombra cálida */
+  max-width: 400px;
+  width: 100%;
+}
+
+form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(10px);
+  z-index: -1; 
+}
+
+h1 {
+  text-align: center;
+  color: #5a3e2b; /* Marrón oscuro apetecible */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #7b5e4b; /* Marrón medio suave */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d8c7b5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fdf8f3;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #a34726; /* Terracota intensa */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #812f14; /* Terracota más oscura */
+}
